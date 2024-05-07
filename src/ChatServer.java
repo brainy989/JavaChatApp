@@ -3,7 +3,6 @@ import java.net.*;
 import java.util.*;
 
 public class ChatServer {
-    // list to keep track of all connected clients
     private static List<ClientHandler> clients = new ArrayList<>();
 
     public static void main(String[] args) throws IOException {
